@@ -51,6 +51,4 @@ ul{
 }
 .child-element-end{
     align-items: center;
-    justify-content: flex-end;
-    justify-content: space-evenly;
 }
