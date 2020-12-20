@@ -74,6 +74,10 @@ h2{
     .image{
         display: inline-flex;
         align-self: flex-end;
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        width: auto;
     }
     button{
         width: auto;
@@ -93,12 +97,27 @@ h2{
         margin-bottom: 16px;
         margin-top: 16px;
     }
+    .flex-container-main{
+        display: flex;
+        height: fit-content;
+        flex-flow: unset;
+        justify-content: space-between;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .nav-box{
+        margin-left: auto;
+    }
     .navigation{
         display: flex;
         flex-flow: row;
         column-gap: 10px;
-        padding-left: 270px;
+        padding-left: 830px;
         padding-right: 10px;
         align-items: center;
     }
+    .main-text{
+        max-width: 50%;
+    }
+
 }
