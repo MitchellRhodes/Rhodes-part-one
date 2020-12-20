@@ -91,6 +91,7 @@ h2{
     .flex-container-header{
         display: flex;
         flex-flow: row;
+        align-items: center;
     }
     .child-element-header{
         display: flex;
@@ -112,7 +113,6 @@ h2{
         display: flex;
         flex-flow: row;
         column-gap: 10px;
-        padding-left: 830px;
         padding-right: 10px;
         align-items: center;
     }
